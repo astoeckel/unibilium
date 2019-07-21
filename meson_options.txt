@@ -1,0 +1,4 @@
+option('terminfo_dirs',
+       type: 'string',
+       value: '/etc/terminfo:/lib/terminfo:/usr/share/terminfo:/usr/lib/terminfo:/usr/local/share/terminfo:/usr/local/lib/terminfo',
+       description: '')
