@@ -72,7 +72,7 @@ install_headers([
 # Generate a Pkg config file
 pkg = import('pkgconfig')
 pkg.generate(
-    libraries: [lib_unibilium],
+    lib_unibilium,
     name: 'unibilium',
     version: meson.project_version(),
     description: 'A terminfo parsing library')
